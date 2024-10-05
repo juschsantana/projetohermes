@@ -1,0 +1,67 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+#cabecalho{
+    height: 50px;
+    width: 100%;
+    background-color: #f2d479e0;
+    margin-top: 50px;
+    padding-top: 10px;
+}
+#link{
+    float: right;
+    padding-right: 20.2%;
+}
+#cabecalho a{
+    color:black ;
+    font-size: 30px;
+    margin: 30px;
+    text-decoration: none;
+    font-weight: bold;
+}
+#cabecalho a:hover{
+    background-color: #af9200dc;
+    border-radius: 7px;   
+    
+}
+#logo{
+    background-image: linear-gradient(to bottom,#f2d479,#af9200);
+    width: 290px;
+    height: 112px;
+    border-radius: 70%;
+    float: left;
+}
+
+#logo img{
+    width: 83%;
+    padding: 5%;
+    padding-left: 10%;
+    padding-top: 7%;
+}
+
+#sobre-mim{
+    background-color: #af9200cb;
+    width: 230px;
+    height: 830px;
+    margin-top: 38px;
+    margin-left: 30px;
+}
+#sobre-mim ul{
+    padding-top: 40px;
+    padding-left: 28px;
+    font-size: 20px;
+}
+body{
+    background-image: url(../imagens/frontpage.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#rodape{
+    background-color: #f2d479e7;
+    text-align: center;
+    margin-bottom: 5%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}

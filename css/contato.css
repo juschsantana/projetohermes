@@ -1,0 +1,87 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+#cabecalho{
+    height: 50px;
+    width: 100%;
+    background-color: #f2d479df;
+    margin-top: 50px;
+    padding-top: 10px;
+}
+#link{
+    float: right;
+    padding-right: 20.2%;
+}
+#cabecalho a{
+    color:black ;
+    font-size: 30px;
+    margin: 30px;
+    text-decoration: none;
+    font-weight: bold;
+}
+#cabecalho a:hover{
+    background-color: #af9200dc;
+    border-radius: 7px;   
+    
+}
+#logo{
+    background-image: linear-gradient(to bottom,#f2d479,#af9200);
+    width: 290px;
+    height: 112px;
+    border-radius: 70%;
+    float: left;
+}
+#logo img{
+    width: 83%;
+    padding: 5%;
+    padding-left: 10%;
+    padding-top: 7%;
+}
+
+#contato-foto{
+    width: 280px;
+    height: 355px;
+    margin-left: 65%;
+    background-image: linear-gradient(to bottom,#f2d479,#af9200);
+}
+#contato-foto img{
+    width: 260px;
+    margin-left: 3.5%; 
+   
+}
+#contato{
+    float: right;
+    margin-right: 15%;
+    background-color: #af9200;
+    width: 900px;
+    height: 300px;
+    text-align: center;
+    border-radius: 15px;
+}
+#contato p{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-size: 22px;
+}
+#contato img{
+    width: 90px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+body{
+    background-image: url(../imagens/contatopage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#rodape{
+    background-color: #f2d479;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 5%;
+    margin-top: 8%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    float: left;
+}

@@ -1,0 +1,93 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+#cabecalho {
+    height: 50px;
+    width: 100%;
+    background-color: #af9200;
+    margin-top: 50px;
+    padding-top: 10px;
+}
+#link{
+    float: right;
+    padding-right: 20.2%;
+}
+#cabecalho a{
+    color:black ;
+    font-size: 30px;
+    margin: 30px;
+    text-decoration: none;
+    font-weight: bold;
+}
+#cabecalho a:hover{
+    background-color: #f2d4799d;
+    border-radius: 7px;   
+    
+}
+#logo {
+    background-image: linear-gradient(to top, #f2d479, #af9200);
+    width: 290px;
+    height: 112px;
+    border-radius: 70%;
+    float: left;
+
+}
+
+#logo img {
+    width: 83%;
+    padding: 5%;
+    padding-left: 10%;
+    padding-top: 7%;
+}
+
+#produtos {
+    margin-top: 5%;
+
+}
+
+#produtos img {
+    margin: 1em;
+    height: 300px;
+    border: 15px, solid;
+    border-color: #f2d479;
+    border-left-color: #af9200;
+    border-bottom-color: #f2d479;
+    border-right-color: #af9200;
+    border-style: groove;
+}
+
+#produtos table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#slogan {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 9%;
+    text-align: center;
+    background-color: #f2d479;
+    width: 990px;
+    height: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 15px;
+}
+
+body {
+    background-image: url(../imagens/produtos/produtospage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#rodape {
+    background-color: #af9200;
+    text-align: center;
+    margin-bottom: 5%;
+    margin-top: 8%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}

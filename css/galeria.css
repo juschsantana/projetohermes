@@ -1,0 +1,72 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+#cabecalho{
+    height: 50px;
+    width: 100%;
+    background-color: #f2d479df;
+    margin-top: 50px;
+    padding-top: 10px;
+}
+#link{
+    float: right;
+    padding-right: 20.2%;
+}
+#cabecalho a{
+    color:black ;
+    font-size: 30px;
+    margin: 30px;
+    text-decoration: none;
+    font-weight: bold;
+}
+#cabecalho a:hover{
+    background-color: #af9200dc;
+    border-radius: 7px;   
+    
+}
+#logo{
+    background-image: linear-gradient(to bottom,#f2d479,#af9200);
+    width: 290px;
+    height: 112px;
+    border-radius: 70%;
+    float: left;
+    
+}
+#logo img{
+    width: 83%;
+    padding: 5%;
+    padding-left: 10%;
+    padding-top: 7%;
+}
+
+#galeria {
+    margin: 50px;
+}
+#galeria table{
+    margin-top: 10%;
+    margin-left: auto;
+  margin-right: auto;
+}
+#galeria img {
+    width: 320px;
+    margin: 2em;
+    border: 10px, solid;
+    border-style: ridge;
+    border-top-color: #af9200;
+    border-left-color: #f2d479;
+    border-bottom-color: #af9200;
+    border-right-color: #f2d479;
+}
+body{
+    background-color: #F2F0D5;
+}
+#rodape{
+    background-color: #af9200;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
